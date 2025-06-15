@@ -148,20 +148,68 @@
     </div>
   </nav>
   <!-- navbar -->
+  <!-- banner -->
+  
+  <section class="relative bg-gradient-to-br from-[#2c006c] via-[#4c00a3] to-[#2c006c] text-white overflow-hidden px-4 md:px-20 py-16">
+  <!-- Grid background (optional) -->
+  <div class="absolute inset-0 bg-[url('/grid.svg')] opacity-10 z-0"></div>
 
-  <!-- banner content inside header now -->
-  <section class="relative z-10">
-    <div class="flex items-center justify-center h-[90vh] md:h-[85vh] lg:h-[80vh] xl:h-[85vh] text-center text-white px-4">
-      <div>
-        <h1 class="md:text-5xl text-2xl font-bold mb-4">Hi, I am <span class="text-[#CC03F5]">Arika Islam</span></h1>
-        <p class="mb-6 md:text-lg text-base font-lato">
-          I am a videographer, video editor, and motion graphics designer with a passion for creating captivating visual stories. <br>
-          I specialize in crafting engaging content that resonates with audiences across various platforms.
-        </p>
+  <div class="relative z-10 grid md:grid-cols-3 gap-10 items-center">
+    <!-- Left video preview -->
+    <div class="flex flex-col items-center md:items-start space-y-6">
+      <div class="relative rounded-xl overflow-hidden shadow-lg w-[280px] h-[160px]">
+        <img src="img/video-thumbnail.jpg" alt="Video" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center">
+          <button class="bg-white text-black p-3 rounded-full text-xl">&#9658;</button>
+        </div>
+      </div>
+      <div class="flex items-center -space-x-3 mt-2">
+        <img src="img/client1.jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+        <img src="img/client2.jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+        <img src="img/client3.jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+        <img src="img/client4.jpg" class="w-10 h-10 rounded-full border-2 border-white" />
+      </div>
+      <p class="text-sm text-white/80">Among My Clients</p>
+    </div>
+
+    <!-- Middle content -->
+    <div class="text-center md:text-left space-y-4">
+      <h1 class="text-3xl md:text-5xl font-bold leading-tight font-inter">
+        Editing Videos that <br>
+        <span class="text-pink-400">Boost Sales</span>
+      </h1>
+      <p class="text-base text-white/80 font-lato">
+        I help brands transform raw footage into polished, engaging videos that speak louder than words and drive conversion.
+      </p>
+      <a href="#contact" class="inline-block bg-[#CC03F5] hover:bg-[#A302C6] text-white px-6 py-3 mt-4 rounded-full font-semibold transition">Contact Now</a>
+    </div>
+
+    <!-- Right testimonial -->
+    <div class="bg-[#ffffff10] backdrop-blur-sm p-6 rounded-xl space-y-4 relative">
+      <div class="flex items-center gap-4">
+        <img src="img/rakib.jpg" class="w-12 h-12 rounded-full border border-white" />
+        <div>
+          <p class="font-bold">Rafayet Rakib</p>
+          <p class="text-sm text-white/70">Founder of Digital Dropouts</p>
+        </div>
+      </div>
+      <p class="text-sm text-white/80">
+        “Shibbir’s creativity transformed our ideas into stunning videos that boosted engagement and significantly increased sales.”
+      </p>
+      <p class="text-xs text-pink-300 italic">"One of Batch 04"</p>
+
+      <!-- Tool icons -->
+      <div class="absolute bottom-4 right-4 flex gap-2">
+        <img src="img/ae-icon.png" class="w-8 h-8" />
+        <img src="img/pr-icon.png" class="w-8 h-8" />
+        <img src="img/fcpx-icon.png" class="w-8 h-8" />
       </div>
     </div>
-  </section>
-</header>
+  </div>
+</section>
+  
+  <!-- banner -->
+ </header>
 
   <!-- header end -->
    <!-- main start -->
@@ -172,7 +220,7 @@
      <div class="text-center mb-8">
         <h1 class="md:text-5xl text-2xl font-bold text-white font-inter">About Me</h1>
      </div>
-     <!-- heading -->
+     <!-- heading -->   
      <!-- content -->
     <div class="hero">
   <div class="hero-content flex-col lg:flex-row items-start">
